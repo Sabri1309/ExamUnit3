@@ -83,7 +83,7 @@ public class Program
         string greeting = GenerateGreeting(name);
         Console.WriteLine(greeting);
     }
-    //-------------------------------------------------------------------- TASK B ----------------------------------------------------------------------
+    //------------------------------------------------------- TASK B - Flatten those numbers ----------------------------------------------------------
     public static List<int> FlattenArray(object[] arr)
     {
         List<int> flattenedArray = new List<int>();
@@ -188,10 +188,9 @@ public class Program
         Task4();
         Task5();
         Task6();
-        Console.WriteLine("----------------------------------------------------------- task B ----------------------------------------------------------");
+        Console.WriteLine("------------------------------------------ task B- Flatten those numbers --------------------------------------------");
         Task7();
-        Console.WriteLine("----------------------------------------------------------- task C ----------------------------------------------------------");
-
+        
     }
 
 }
